@@ -18,6 +18,7 @@ Dengan JavaScript, kita bisa membuat halaman blog menjadi lebih interaktif dan r
 ![alt text](https://github.com/PutriNurIsnaeni/PerancanganWeb-DesainGrafis-BisDig/blob/main/Screenshot%202025-05-19%20174848.png?raw=true)
 
 # Setelah klik "Tampilkan komentar"
+![alt text](https://github.com/PutriNurIsnaeni/PerancanganWeb-DesainGrafis-BisDig/blob/main/Screenshot%202025-05-19%20174958.png?raw=true)
 
 
 
