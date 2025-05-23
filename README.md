@@ -13,3 +13,8 @@ JavaScript bisa merespons aksi pengguna, seperti mengklik tombol, dengan fungsi 
 
 Dengan JavaScript, kita bisa membuat halaman blog menjadi lebih interaktif dan responsif terhadap tindakan pengguna tanpa perlu reload halaman, contohnya seperti menampilkan komentar hanya saat tombol diklik.
 
+![alt text](?raw=true)
+
+
+
+
