@@ -1,0 +1,31 @@
+/* Gaya dasar untuk membuat gambar responsif */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Kontainer utama dengan padding dan ukuran maksimum */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Media Query: Atur tampilan untuk layar maksimal 600px (smartphone) */
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 0.5rem;
+    font-size: 90%; /* Font sedikit lebih kecil */
+  }
+
+  /* Pastikan gambar tetap pas dan teks tidak melebihi lebar layar */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
