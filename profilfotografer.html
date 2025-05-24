@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Profil Fotografer Profesional</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    margin: 2rem auto;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 1rem;
+  }
+  header, footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #063ff9;
+    color: white;
+    border-radius: 8px;
+  }
+  header h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2.4rem;
+  }
+  main section {
+    background: white;
+    margin-top: 1.5rem;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  }
+  .profile-image {
+    max-width: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+  .description {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .social-links a {
+    text-decoration: none;
+    color: #063ff9;
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding: 0.4rem 0.8rem;
+    border: 2px solid  #063ff9;
+    border-radius: 7px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  .social-links a:hover {
+    background-color: #063ff9;
+    color: white;
+  }
+  /* Gallery styles */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  .gallery img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    object-fit: cover;
+    height: 140px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  .gallery img:hover {
+    transform: scale(1.05);
+  }
+  .gallery-caption {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 0.4rem;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Putri Nur Isnaeni</h1>
+  </header>
+
+  <main>
+    <section aria-label="Profil fotografer">
+      <img src="putri.jpg" alt="Foto Profil Putri Fotografi" class="profile-image" />
+      <p class="description">
+        Saya seorang fotografer profesional dengan pengalaman lebih dari 2 tahun di bidang fotografi landscape dan potret. Karyanya telah dipublikasikan di berbagai majalah internasional dan ia selalu bersemangat menangkap momen terbaik.
+      </p>
+      <div class="social-links" aria-label="Tautan Media Sosial Dewi">
+        <a href="https://www.instagram.com/cuputt26?igsh=MTlzNTUwZ3o5YXNscQ==" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </section>
+
+    <section aria-label="Galeri foto karya Putri">
+      <h2 style="text-align:center; margin-bottom: 1rem;">Galeri Foto</h2>
+      <div class="gallery">
+        <figure>
+          <img src="Masjid.jpg" alt="Pemandangan masjid" />
+          <figcaption class="gallery-caption">Masjid Al-Isteqlaliyyah Cilongok</figcaption>
+        </figure>
+        <figure>
+          <img src="gunung.jpg" alt="pemndangan gunung" />
+          <figcaption class="gallery-caption">Puncak</figcaption>
+        </figure>
+        <figure>
+          <img src="Alam.jpg" alt="alam yang indah" />
+          <figcaption class="gallery-caption">Alam</figcaption>
+        </figure>
+        <figure>
+          <img src="Keluarga.jpg" alt="keluarga pernikahan" />
+          <figcaption class="gallery-caption">Keluarga</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Putri Fotografi. Semua hak dilindungi.</p>
+  </footer>
+</body>
+</html>
+
