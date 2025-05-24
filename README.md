@@ -1,6 +1,7 @@
 # PerancanganWeb-DesainGrafis-BisDig
 
-# 1.Prinsip UI/UX untuk aplikasi web 
+# 1.Prinsip UI/UX untuk aplikasi web konsultasi kesehatan
+
 Hierarki Visual
 Tujuan: Mengarahkan perhatian pengguna ke elemen yang paling penting terlebih dahulu.
 Penerapan: Judul utama (headline) dan CTA (call-to-action) seperti tombol “Mulai Konsultasi” harus paling menonjol. Gunakan ukuran font besar dan posisi strategis pada bagian atas halaman. Elemen pendukung seperti fitur layanan diletakkan secara berurutan sehingga pengguna mudah memahami struktur informasi.
